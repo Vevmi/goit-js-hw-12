@@ -1,7 +1,7 @@
 
-function imgTemlate({ previewURL, downloads, views, likes, comments, largeImageURL }) {
+function imgTemlate({  downloads, views, likes, comments, largeImageURL }) {
     return `            <li class="card-item">
-        <a href="${largeImageURL}"><img class="card-img" src="${previewURL}" alt="" title="" /></a>
+        <a href="${largeImageURL}"><img class="card-img" src="${largeImageURL}" alt="" title="" /></a>
         <div>
           <span class="description">
             <p class="card-title">
